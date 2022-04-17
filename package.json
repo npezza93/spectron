@@ -7,8 +7,6 @@
   "scripts": {
     "lint": "eslint \"**/*.js\" \"**/*.ts\" && prettier --check \"**/*.js\" \"**/*.ts\"",
     "prettier:write": "prettier --write \"**/*.js\" \"**/*.ts\"",
-    "prepare": "check-for-leaks",
-    "prepush": "check-for-leaks",
     "pretest": "tsc",
     "test": "npm run lint && xvfb-maybe --server-args=\"-screen 0 1024x768x24\" -- mocha",
     "postinstall": "node lib/rpath-fix.js"
