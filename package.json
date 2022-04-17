@@ -14,7 +14,10 @@
   "engines": {
     "node": ">=12.20.0"
   },
-  "repository": "https://github.com/electron/spectron",
+  "repository": "https://github.com/npezza93/spectron",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "keywords": [
     "electron",
     "chromedriver",
