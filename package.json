@@ -1,5 +1,5 @@
 {
-  "name": "spectron",
+  "name": "@npezza93/spectron",
   "version": "20.0.0",
   "description": "Easily test your Electron apps using ChromeDriver and WebdriverIO.",
   "main": "index.js",
